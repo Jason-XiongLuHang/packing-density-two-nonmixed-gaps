@@ -1,0 +1,14 @@
+TwoGap.lean:218:23: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+TwoGap.lean:283:23: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+TwoGap.lean:283:41: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+TwoGap.lean:284:23: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+TwoGap.lean:284:41: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+TwoGap.lean:447:4: warning: 'change ((0 ≤ z ∧ z < D + a ∧ z ∈ S) ∧ z < D + b) ↔ (0 ≤ z ∧ z < D + b ∧ z ∈ S)' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+'TwoGap.two_window_staircase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoGap.two_window_ceiling' depends on axioms: [propext, Classical.choice, Quot.sound]

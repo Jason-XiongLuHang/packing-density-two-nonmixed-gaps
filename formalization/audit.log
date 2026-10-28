@@ -1,0 +1,9 @@
+TwoGap.two_window_staircase {a b k m : ℤ} (S : Set ℤ) (ha : b < a) (hb : 0 < b) (hk : 0 < k) (hm : 0 < m)
+  (hcoprime : a.gcd b = 1) (hS : TwoGap.SetAvoid a b k m S) :
+  ∃ h, ↑(TwoGap.window S (k * a + m * b + b)).card ≤ b + k * h ∧ ↑(TwoGap.window S (k * a + m * b + a)).card ≤ a - m * h
+TwoGap.two_window_ceiling {a b k m : ℤ} (S : Set ℤ) (ha : b < a) (hb : 0 < b) (hk : 0 < k) (hm : 0 < m)
+  (hcoprime : a.gcd b = 1) (hS : TwoGap.SetAvoid a b k m S) :
+  ↑(TwoGap.window S (k * a + m * b + a)).card ≤
+    a - m * TwoGap.ceilDiv (↑(TwoGap.window S (k * a + m * b + b)).card - b) k
+'TwoGap.two_window_staircase' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TwoGap.two_window_ceiling' depends on axioms: [propext, Classical.choice, Quot.sound]

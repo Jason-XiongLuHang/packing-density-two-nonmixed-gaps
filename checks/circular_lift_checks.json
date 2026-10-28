@@ -1,0 +1,9 @@
+{
+  "exhaustive_parameter_cases": 272,
+  "exhaustive_configurations": 578100,
+  "circular_edges_checked": 2178574,
+  "cyclic_forbidden_edges_checked": 64588,
+  "random_maximal_configurations": 1950,
+  "all_checks_passed": true,
+  "caveat": "Exact finite checks supplement a general proof; not an independent human review."
+}

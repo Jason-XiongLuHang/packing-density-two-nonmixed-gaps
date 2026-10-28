@@ -1,0 +1,24 @@
+{
+  "date_utc": "2026-10-28T12:11:20.758087+00:00",
+  "lean": "4.19.0",
+  "mathlib_commit": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+  "source_lines": 489,
+  "lean_compile_exit": 0,
+  "independent_import_audit_exit": 0,
+  "theorems": [
+    "TwoGap.two_window_staircase",
+    "TwoGap.two_window_ceiling"
+  ],
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "sorryAx": false,
+  "scope": "Theorem 2; density theorem not formalized",
+  "source_sha256": "49c984b8a4ac5097067220eef32fe03144136378744784c502345db2d928c963",
+  "audit_sha256": "3036d81cc9139c0074058b8284f0037513c80886b15563f4057f568198711f86",
+  "recorded_local_source_sha256": "49c984b8a4ac5097067220eef32fe03144136378744784c502345db2d928c963",
+  "recorded_local_audit_sha256": "7f827dc53fe69494bccad39697d988bf584a92b95b9f13fff39de6759dc5995a",
+  "distribution_change": "LF line endings; original Windows-byte hashes retained separately"
+}

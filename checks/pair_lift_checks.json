@@ -1,0 +1,8 @@
+{
+  "parameter_cases": 496,
+  "ordered_legal_pairs": 409620,
+  "direct_normal_lifts": 406904,
+  "exceptional_lifts": 2716,
+  "all_checks_passed": true,
+  "method": "Direct enumeration of q=-1,...,-m; separate from the constructive checker"
+}
